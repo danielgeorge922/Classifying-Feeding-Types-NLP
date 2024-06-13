@@ -1,0 +1,1 @@
+Respiratory Therapist: Patient remain intubated and ventilated. No complications. Alarms are on, Vue link up and BVM @ bedside. Vent settings are: Vent Mode:  [-] PSV RR Mechanical:  [-] 4 Vt Set:  [460 mL] 460 mL Pressure Support:  [5 cmH20] 5 cmH20 PEEP:  [5 cmH20-10 cmH20] 5 cmH20 FiO2 (%):  [40 %] 40 % Insp Time:  [1 Sec(s)] 1 Sec(s) I:E Ratio Set:  [-] 

@@ -1,0 +1,1 @@
+Strict I/O's ordered in addition to daily weight.

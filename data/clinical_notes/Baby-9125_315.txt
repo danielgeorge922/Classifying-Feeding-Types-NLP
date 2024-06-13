@@ -1,0 +1,1 @@
+Delayed Entry: Tracing note (Patient currently off the monitor for sleep) FHT:Twin A: 140s, min-mod BTBV, + accels, no decels Twin B: 130s, mod BTBV, + accels, no decels TOCO: not on monitor  Cat 1 FHT for Twin A and B  CEFM replaced at 0500 the latest. Will CTM   [**NAME**], MD 

@@ -1,0 +1,1 @@
+Attempted to call report to receiving RN, but RN unavailable at this time. Will call again in 10 minutes.

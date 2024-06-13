@@ -1,0 +1,1 @@
+Blood sugar = 71, Dr. [**NAME**] notified. Insulin turned off at this time and will re-assess in one hour, per Dr. [**NAME**].

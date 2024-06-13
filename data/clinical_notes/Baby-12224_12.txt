@@ -1,0 +1,1 @@
+FHR 125 with variable to 80 with ctx.  Positive accels/moderate variability.  

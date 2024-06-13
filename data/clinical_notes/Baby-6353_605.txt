@@ -1,0 +1,1 @@
+Lab unable to draw patient labs,as patient is off the unit visiting infant in NICU

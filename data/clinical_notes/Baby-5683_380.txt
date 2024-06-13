@@ -1,0 +1,1 @@
+Nurse in room and pt is not in there.  Dr. [**NAME**] is aware pt is not in room.

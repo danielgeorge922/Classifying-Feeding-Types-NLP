@@ -1,0 +1,1 @@
+Problem: Home program (PT) Goal: PT STG : Patient will complete exercise program: [**DATE**] Patient will complete exercise program with Independence (I) and no cues 2-3 x/day.  Outcome: Met/Completed Date Met:  [**DATE**]  

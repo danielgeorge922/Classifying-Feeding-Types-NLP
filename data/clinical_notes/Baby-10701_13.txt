@@ -1,0 +1,1 @@
+Notified Dr. [**NAME**] of patient's temperature 38C. 

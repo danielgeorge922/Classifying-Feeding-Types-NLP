@@ -1,0 +1,1 @@
+Tracing eval. Deep variable decel to the 60s. SVE: lip/C/0. Lip not reducable. Will plan to recheck shortly. 

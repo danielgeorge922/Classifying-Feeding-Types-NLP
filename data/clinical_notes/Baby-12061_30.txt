@@ -1,0 +1,1 @@
+Patient not found in room, FOB refers patient "stepped out for smoke".  

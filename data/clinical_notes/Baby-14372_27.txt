@@ -1,0 +1,1 @@
+Department of [**LOCATION_INSTITUTE**] Obstetrics  Case Procedure date: [**DATE**] Case Record #: [**ID**]  1. A Resident or Fellow participated in the case? - Yes   2. Teaching Surgeon/Proceduralist was present entire case (including opening and closing)? - Yes   [**NAME**] [**DATE**] 9:50 PM

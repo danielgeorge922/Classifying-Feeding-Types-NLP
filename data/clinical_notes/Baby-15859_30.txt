@@ -1,0 +1,1 @@
+      [**DATE**]  Patient: [**NAME**]  Date of Visit: [**DATE**]    To Whom It May Concern:  This certifies that [**NAME**] was seen and treated at [**LOCATION_INSTITUTE**] [**LOCATION_INSTITUTE**] Hospital on [**DATE**] - [**DATE**]     Sincerely,    Signed by [**NAME**], RN [**DATE**] 11:41 AM       

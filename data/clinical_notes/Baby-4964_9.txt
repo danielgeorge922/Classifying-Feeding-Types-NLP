@@ -1,0 +1,1 @@
+Received pt from C/S into pacu "D".  Pt denies pain at this time.

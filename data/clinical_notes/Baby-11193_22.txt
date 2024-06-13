@@ -1,0 +1,1 @@
+Patient refers pain 10/10 in pain scale. Dr [**NAME**] notified. Pending oreder for IV medication.

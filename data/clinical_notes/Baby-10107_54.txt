@@ -1,0 +1,1 @@
+Fetal tracing reviewed and improved overall. Baseline now 150s with min to mod BTBV and no decelerations. Will continue with magnesium for neuroprotection and monitor   [**NAME**], MD 

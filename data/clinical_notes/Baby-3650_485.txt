@@ -1,0 +1,1 @@
+Fetal tracing reviewed  Baby A: 120s, modBTBV, + accels no decels  Baby B: 130s, modBTBV, + accels no decels  Baby C: 140s, modBTBV, + accels no decels  Reassuring and reactive tracing x 3.  ctm   [**NAME**] 

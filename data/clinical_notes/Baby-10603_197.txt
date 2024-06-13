@@ -1,0 +1,1 @@
+ECG, Normal, Dr [**NAME**] notified, pt may return to 95, 95 called for transport.

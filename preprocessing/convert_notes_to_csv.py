@@ -2,7 +2,7 @@ import os
 import csv
 
 # Directory containing the clinical notes
-directory = 'clinical_notes_1000'
+directory = '../data/clinical_notes'
 
 # List to store the content of each file
 notes = []
@@ -16,7 +16,7 @@ for filename in os.listdir(directory):
             notes.append(content)
 
 # Specify the output CSV file
-output_csv = 'clinical_notes.csv'
+output_csv = '../data/cleaned_data/raw_clinical_notes.csv'
 
 # Write the notes to the CSV file
 with open(output_csv, 'w', newline='', encoding='utf-8') as csvfile:

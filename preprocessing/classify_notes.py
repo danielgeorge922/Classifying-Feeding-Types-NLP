@@ -71,6 +71,7 @@ def classify(text):
     0: Neither related to breast feeding or bottle feeding
     1: Note deals with breast feeding
     2: Note deals with bottle feeding
+    3: Note deels with both breast and bottle feeding
     """""
     if found_breast_matches and found_bottle_matches:
         return 3  # Both breastfeeding and bottle feeding

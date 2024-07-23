@@ -4,22 +4,7 @@ This project involves classifying feeding types using Natural Language Processin
 
 ## Directory Structure
 
-Classifying-Feeding-Types-NLP/
-├── .idea/
-├── data/
-│ ├── cleaned_data/
-│ │ └── final_notes.csv
-├── model/
-│ ├── logistic_regression_model.py
-│ ├── random_forest_model.py
-├── preprocessing/
-│ ├── classify_notes.py
-│ ├── convert_notes_to_csv.py
-│ ├── csv_prompt.py
-│ ├── explore_classified_notes.ipynb
-│ ├── machine_learning_basics.py
-└── README.md
-
+![image](https://github.com/user-attachments/assets/57b03b12-2ea2-46a3-b00c-326414c2454f)
 
 ## Data Folder
 

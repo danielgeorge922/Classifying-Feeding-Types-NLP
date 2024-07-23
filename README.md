@@ -6,6 +6,7 @@ This project involves classifying feeding types using Natural Language Processin
 
 ![image](https://github.com/user-attachments/assets/57b03b12-2ea2-46a3-b00c-326414c2454f)
 
+
 ## Data Folder
 
 This folder contains the cleaned data used for training and testing the models.
@@ -20,55 +21,49 @@ This folder contains the scripts for training and evaluating the models.
 
 ### logistic_regression_model.py
 
-```python
-import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split, GridSearchCV
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import classification_report
-from nltk.corpus import stopwords
-from nltk.stem import PorterStemmer
-import nltk
+This script preprocesses the data, vectorizes the text data using TF-IDF, and trains a Logistic Regression model with hyperparameter tuning. The preprocessing steps include:
 
-# Import necessary libraries
-nltk.download('stopwords')
-nltk.download('wordnet')
+- Lowercasing the text data.
+- Removing punctuation.
+- Removing stopwords using NLTK's stopwords list.
+- Stemming the words using PorterStemmer.
 
-# Load the data
-df = pd.read_csv('../data/cleaned_data/final_notes.csv')
+### random_forest_model.py
 
-# Display class distribution
-print(df['classification'].value_counts())
+This script preprocesses the data, vectorizes the text data using TF-IDF, and trains a Random Forest model with hyperparameter tuning. The preprocessing steps include:
 
-# Preprocessing steps
-df['notes'] = df['notes'].str.lower()  # Lowercasing
-df['notes'] = df['notes'].str.replace('[^\w\s]', '', regex=True)  # Remove punctuation
-stop = set(stopwords.words('english'))
-df['notes'] = df['notes'].apply(lambda x: ' '.join([word for word in x.split() if word not in stop]))  # Remove stopwords
-stemmer = PorterStemmer()
-df['notes'] = df['notes'].apply(lambda x: ' '.join([stemmer.stem(word) for word in x.split()]))  # Stemming
+- Lowercasing the text data.
+- Removing punctuation.
+- Removing stopwords using NLTK's stopwords list.
+- Lemmatizing the words using WordNetLemmatizer.
 
-# Split the dataset into features and target
-X = df['notes']
-y = df['classification']
+## Preprocessing Folder
 
-# Split the data into training and testing sets
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=40, stratify=y)
+This folder contains scripts for preprocessing the data before training the models.
 
-# Vectorize the text data
-vectorizer = TfidfVectorizer(max_features=1000, ngram_range=(1, 2))
-X_train_vect = vectorizer.fit_transform(X_train).toarray()
-X_test_vect = vectorizer.transform(X_test).toarray()
+### classify_notes.py
 
-# Train a model with hyperparameter tuning
-param_grid = {'C': [0.01, 0.1, 1, 10, 100]}
-modelLR = GridSearchCV(LogisticRegression(max_iter=200), param_grid, cv=5, scoring='f1_weighted')
-modelLR.fit(X_train_vect, y_train)
+Contains the script for classifying notes.
 
-# Evaluate the model
-y_pred = modelLR.predict(X_test_vect)
-print(classification_report(y_test, y_pred))
+### convert_notes_to_csv.py
 
-# Display the best parameters
-print(f"Best parameters: {modelLR.best_params_}")
+Contains the script for converting notes to CSV format.
+
+### csv_prompt.py
+
+Contains the script for prompting CSV conversion.
+
+### explore_classified_notes.ipynb
+
+A Jupyter notebook for exploring classified notes.
+
+### machine_learning_basics.py
+
+Contains basic machine learning scripts and utilities.
+
+## Installation
+
+To install the required dependencies, use the following command:
+
+```bash
+pip install -r requirements.txt

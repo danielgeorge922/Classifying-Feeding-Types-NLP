@@ -67,3 +67,8 @@ To install the required dependencies, use the following command:
 
 ```bash
 pip install -r requirements.txt
+
+### Results from running with Random Forest Classifier
+
+![image](https://github.com/user-attachments/assets/3c70b229-05a5-45b6-b782-71262f48aac7)
+
